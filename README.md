@@ -17,7 +17,7 @@
   <img alt="macOS 14+" src="https://img.shields.io/badge/macOS-14%2B-111827?logo=apple">
   <img alt="Universal Binary" src="https://img.shields.io/badge/Universal-Apple%20Silicon%20%2B%20Intel-57d9b2">
   <img alt="Languages" src="https://img.shields.io/badge/UI-English%20%7C%20فارسی-49a8ff">
-  <img alt="Current version" src="https://img.shields.io/badge/version-1.2.1-b79cff">
+  <img alt="Current version" src="https://img.shields.io/badge/version-1.3.0-b79cff">
 </p>
 
 > **Binary-only distribution:** this repository contains the downloadable application, documentation, and screenshots. Source code is not published.
@@ -32,12 +32,14 @@
 
 ## English
 
-MacPulse gives you a clear, live view of your Mac's CPU, memory, storage, health score, and resource-heavy applications. Its compact menu bar panel remains available after the main dashboard is closed.
+MacPulse gives you a clear, live view of your Mac's CPU, memory, storage, network traffic, battery status, estimated per-app energy impact, health score, and resource-heavy applications. Its compact menu bar panel remains available after the main dashboard is closed.
 
 ### Features
 
 - Live CPU, memory, and storage monitoring
-- Compact menu bar panel with live CPU percentage
+- Live download/upload rates and per-process network usage
+- Battery charge, power source, estimated remaining time, and ranked per-app Energy Impact
+- Compact menu bar panel with CPU, network, and battery quick stats
 - Resource-heavy application and process list
 - Safe Quit and Force Quit controls with confirmation
 - Multi-application memory optimizer
@@ -55,7 +57,7 @@ MacPulse gives you a clear, live view of your Mac's CPU, memory, storage, health
 
 ### Installation
 
-1. Download `MacPulse-1.2.1.dmg` from the [latest release](https://github.com/shayanmaher/MacPulse/releases/latest).
+1. Download `MacPulse-1.3.0.dmg` from the [latest release](https://github.com/shayanmaher/MacPulse/releases/latest).
 2. Open the DMG and drag **MacPulse** into **Applications**.
 3. Launch MacPulse from Applications or Launchpad.
 
@@ -75,12 +77,14 @@ MacPulse does not upload system information, application names, or usage statist
 
 ## فارسی
 
-مک‌پالس نمایی شفاف و زنده از پردازنده، حافظه، فضای ذخیره‌سازی، امتیاز سلامت و برنامه‌های پرمصرف مک ارائه می‌دهد. پنل کوچک نوار منو حتی پس از بستن داشبورد اصلی در دسترس باقی می‌ماند.
+مک‌پالس نمایی شفاف و زنده از پردازنده، حافظه، فضای ذخیره‌سازی، ترافیک شبکه، وضعیت باتری، برآورد مصرف انرژی برنامه‌ها، امتیاز سلامت و برنامه‌های پرمصرف مک ارائه می‌دهد. پنل کوچک نوار منو حتی پس از بستن داشبورد اصلی در دسترس باقی می‌ماند.
 
 ### امکانات
 
 - نمایش زندهٔ مصرف پردازنده، حافظه و فضای ذخیره‌سازی
-- پنل کوچک در نوار منو همراه درصد زندهٔ CPU
+- نمایش سرعت دانلود و آپلود و مصرف شبکه به تفکیک فرایند
+- نمایش شارژ و منبع تغذیه، زمان تقریبی باقی‌مانده و رتبه‌بندی Energy Impact برنامه‌ها
+- پنل کوچک نوار منو با آمار سریع CPU، شبکه و باتری
 - فهرست برنامه‌ها و فرایندهای پرمصرف
 - بستن امن و خروج اجباری همراه تأیید
 - انتخاب هم‌زمان چند برنامه برای آزادسازی حافظه
@@ -98,7 +102,7 @@ MacPulse does not upload system information, application names, or usage statist
 
 ### نصب
 
-1. فایل `MacPulse-1.2.1.dmg` را از [آخرین نسخه](https://github.com/shayanmaher/MacPulse/releases/latest) دانلود کنید.
+1. فایل `MacPulse-1.3.0.dmg` را از [آخرین نسخه](https://github.com/shayanmaher/MacPulse/releases/latest) دانلود کنید.
 2. فایل DMG را باز کرده و **MacPulse** را داخل **Applications** بکشید.
 3. مک‌پالس را از Applications یا Launchpad اجرا کنید.
 

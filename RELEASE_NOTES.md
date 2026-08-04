@@ -1,13 +1,16 @@
-# MacPulse 1.2.1
+# MacPulse 1.3.0
 
 ## English
 
-The first public binary release of MacPulse, a lightweight native system monitor for macOS.
+This update adds live network monitoring and a new battery and energy dashboard to MacPulse.
 
 ### Highlights
 
+- Live download/upload rates and per-process network usage
+- Battery charge, charging state, power source, and estimated remaining time
+- Ranked per-app Energy Impact based on CPU, memory, and network activity
+- CPU, network, and battery quick stats in the compact menu bar panel
 - Live CPU, memory, and storage statistics
-- Compact menu bar panel
 - English and Persian interface
 - Light, Dark, and System appearance
 - Safe Quit and Force Quit controls
@@ -23,12 +26,15 @@ Download the DMG, drag MacPulse into Applications, and launch it. This binary is
 
 ## فارسی
 
-اولین انتشار عمومی مک‌پالس؛ پایشگر سبک و بومی منابع سیستم برای macOS.
+این به‌روزرسانی پایش زندهٔ شبکه و داشبورد جدید باتری و انرژی را به مک‌پالس اضافه می‌کند.
 
 ### تغییرات مهم
 
+- سرعت زندهٔ دانلود و آپلود و مصرف شبکه به تفکیک فرایند
+- درصد شارژ، وضعیت شارژ، منبع تغذیه و زمان تقریبی باقی‌مانده
+- رتبه‌بندی Energy Impact برنامه‌ها بر پایهٔ پردازنده، حافظه و شبکه
+- آمار سریع CPU، شبکه و باتری در پنل کوچک نوار منو
 - آمار زندهٔ پردازنده، حافظه و فضای ذخیره‌سازی
-- پنل کوچک در نوار منو
 - رابط فارسی و انگلیسی
 - تم روشن، تیره و هماهنگ با سیستم
 - بستن امن و خروج اجباری برنامه‌ها
@@ -45,7 +51,7 @@ Download the DMG, drag MacPulse into Applications, and launch it. This binary is
 ## SHA-256
 
 ```text
-cf5283418b8e7da4e07a4ccadd61984bb3a504944b5c85a989996328cdb2de6b  MacPulse-1.2.1.dmg
+c1b6a87e1f3360809944c89a2b4b4d21429ca291ba98784b623ee18d9ee11d62  MacPulse-1.3.0.dmg
 ```
 
 created by **shayanmaher**
